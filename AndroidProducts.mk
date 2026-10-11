@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_uws6152_1h10_go.mk
+    $(LOCAL_DIR)/twrp_uws6152_1h10_go.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_uws6152_1h10_go-user \
-    omni_uws6152_1h10_go-userdebug \
-    omni_uws6152_1h10_go-eng
+    twrp_uws6152_1h10_go-user \
+    twrp_uws6152_1h10_go-userdebug \
+    twrp_uws6152_1h10_go-eng

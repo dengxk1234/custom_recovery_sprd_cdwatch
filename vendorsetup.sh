@@ -5,6 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_uws6152_1h10_go-user
-add_lunch_combo omni_uws6152_1h10_go-userdebug
-add_lunch_combo omni_uws6152_1h10_go-eng
+#!/bin/bash
+export ALLOW_MISSING_DEPENDENCIES=true
+export LC_ALL=C
+export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
